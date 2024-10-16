@@ -87,6 +87,7 @@ docker build -t traffic-analyzer .
 ### 5. Iniciar MongoDB
 Asegúrate de que el servicio esté funcionando. Puedes iniciarlo en una terminal:
 mongod
+Además, es necesario configurar un clúster para almacenar los datos de manera eficiente. Asegúrate de seguir los pasos adecuados para la configuración del clúster en función de tu entorno y requisitos específicos.
 
 ## Ejecución de la Aplicación
 Para ejecutar el analizador de tráfico, usa el siguiente comando. Asegúrate de que tu contenedor tenga los permisos necesarios para capturar paquetes y acceder a la red:
