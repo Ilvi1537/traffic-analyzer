@@ -1,0 +1,4 @@
+{
+    "mongodb_connection_string": "mongodb+srv://ilsemartineziquo:CTbav5gCTJIA5B17@cluster0.np6aigt.mongodb.net/",
+    "network_interface": "eth0"
+}

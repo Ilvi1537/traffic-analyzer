@@ -1,0 +1,48 @@
+2024-10-16 00:27:40,899 - INFO - Configuración cargada desde el archivo.
+2024-10-16 00:27:41,199 - INFO - Conectado a MongoDB con éxito.
+2024-10-16 00:27:42,390 - INFO - Stored packet: {'src_ip': '192.168.1.92', 'dst_ip': '18.210.201.127', 'protocol': 6, 'size': 66, '_id': ObjectId('670f5cdd262c23cf19c318e0')}
+2024-10-16 00:27:42,605 - INFO - Stored packet: {'src_ip': '192.168.1.92', 'dst_ip': '54.175.57.129', 'protocol': 6, 'size': 66, '_id': ObjectId('670f5cde262c23cf19c318e1')}
+2024-10-16 00:27:42,804 - INFO - Stored packet: {'src_ip': '192.168.1.92', 'dst_ip': '18.204.148.176', 'protocol': 6, 'size': 66, '_id': ObjectId('670f5cde262c23cf19c318e2')}
+2024-10-16 00:27:43,117 - INFO - Stored packet: {'src_ip': '54.175.57.129', 'dst_ip': '192.168.1.92', 'protocol': 6, 'size': 66, '_id': ObjectId('670f5cde262c23cf19c318e3')}
+2024-10-16 00:27:43,219 - INFO - Stored packet: {'src_ip': '18.210.201.127', 'dst_ip': '192.168.1.92', 'protocol': 6, 'size': 66, '_id': ObjectId('670f5cdf262c23cf19c318e4')}
+2024-10-16 00:27:43,317 - INFO - Stored packet: {'src_ip': '18.204.148.176', 'dst_ip': '192.168.1.92', 'protocol': 6, 'size': 66, '_id': ObjectId('670f5cdf262c23cf19c318e5')}
+2024-10-16 00:27:43,425 - INFO - Stored packet: {'src_ip': '192.168.1.92', 'dst_ip': '54.175.57.129', 'protocol': 6, 'size': 54, '_id': ObjectId('670f5cdf262c23cf19c318e6')}
+2024-10-16 00:27:43,522 - INFO - Stored packet: {'src_ip': '192.168.1.92', 'dst_ip': '18.210.201.127', 'protocol': 6, 'size': 54, '_id': ObjectId('670f5cdf262c23cf19c318e7')}
+2024-10-16 00:27:43,730 - INFO - Stored packet: {'src_ip': '192.168.1.92', 'dst_ip': '18.204.148.176', 'protocol': 6, 'size': 54, '_id': ObjectId('670f5cdf262c23cf19c318e8')}
+2024-10-16 00:27:43,934 - INFO - Stored packet: {'src_ip': '192.168.1.92', 'dst_ip': '18.204.148.176', 'protocol': 6, 'size': 571, '_id': ObjectId('670f5cdf262c23cf19c318e9')}
+2024-10-16 00:27:43,934 - INFO - 
+Total de paquetes capturados: 10
+2024-10-16 00:27:43,934 - INFO - Paquetes por protocolo: Counter({6: 10})
+2024-10-16 00:27:43,934 - INFO - Top 5 direcciones IP de origen:
+2024-10-16 00:27:43,934 - INFO - 192.168.1.92: 7 paquetes
+2024-10-16 00:27:43,934 - INFO - 54.175.57.129: 1 paquetes
+2024-10-16 00:27:43,934 - INFO - 18.210.201.127: 1 paquetes
+2024-10-16 00:27:43,934 - INFO - 18.204.148.176: 1 paquetes
+2024-10-16 00:27:43,934 - INFO - Top 5 direcciones IP de destino:
+2024-10-16 00:27:43,934 - INFO - 18.204.148.176: 3 paquetes
+2024-10-16 00:27:43,934 - INFO - 192.168.1.92: 3 paquetes
+2024-10-16 00:27:43,934 - INFO - 18.210.201.127: 2 paquetes
+2024-10-16 00:27:43,934 - INFO - 54.175.57.129: 2 paquetes
+2024-10-16 00:27:50,010 - INFO - Stored packet: {'src_ip': '192.168.1.92', 'dst_ip': '18.210.201.127', 'protocol': 6, 'size': 571, '_id': ObjectId('670f5ce5262c23cf19c318ea')}
+2024-10-16 00:27:50,180 - INFO - Stored packet: {'src_ip': '192.168.1.92', 'dst_ip': '54.175.57.129', 'protocol': 6, 'size': 571, '_id': ObjectId('670f5ce6262c23cf19c318eb')}
+2024-10-16 00:27:50,387 - INFO - Stored packet: {'src_ip': '18.210.201.127', 'dst_ip': '192.168.1.92', 'protocol': 6, 'size': 54, '_id': ObjectId('670f5ce6262c23cf19c318ec')}
+2024-10-16 00:27:50,591 - INFO - Stored packet: {'src_ip': '54.175.57.129', 'dst_ip': '192.168.1.92', 'protocol': 6, 'size': 54, '_id': ObjectId('670f5ce6262c23cf19c318ed')}
+2024-10-16 00:27:50,687 - INFO - Stored packet: {'src_ip': '18.204.148.176', 'dst_ip': '192.168.1.92', 'protocol': 6, 'size': 54, '_id': ObjectId('670f5ce6262c23cf19c318ee')}
+2024-10-16 00:27:50,783 - INFO - Stored packet: {'src_ip': '18.210.201.127', 'dst_ip': '192.168.1.92', 'protocol': 6, 'size': 2878, '_id': ObjectId('670f5ce6262c23cf19c318ef')}
+2024-10-16 00:27:50,899 - INFO - Stored packet: {'src_ip': '54.175.57.129', 'dst_ip': '192.168.1.92', 'protocol': 6, 'size': 2878, '_id': ObjectId('670f5ce6262c23cf19c318f0')}
+2024-10-16 00:27:51,006 - INFO - Stored packet: {'src_ip': '18.210.201.127', 'dst_ip': '192.168.1.92', 'protocol': 6, 'size': 950, '_id': ObjectId('670f5ce6262c23cf19c318f1')}
+2024-10-16 00:27:51,102 - INFO - Stored packet: {'src_ip': '54.175.57.129', 'dst_ip': '192.168.1.92', 'protocol': 6, 'size': 950, '_id': ObjectId('670f5ce7262c23cf19c318f2')}
+2024-10-16 00:27:51,214 - INFO - Stored packet: {'src_ip': '192.168.1.92', 'dst_ip': '18.210.201.127', 'protocol': 6, 'size': 54, '_id': ObjectId('670f5ce7262c23cf19c318f3')}
+2024-10-16 00:27:51,214 - INFO - 
+Total de paquetes capturados: 20
+2024-10-16 00:27:51,214 - INFO - Paquetes por protocolo: Counter({6: 20})
+2024-10-16 00:27:51,214 - INFO - Top 5 direcciones IP de origen:
+2024-10-16 00:27:51,214 - INFO - 192.168.1.92: 10 paquetes
+2024-10-16 00:27:51,214 - INFO - 54.175.57.129: 4 paquetes
+2024-10-16 00:27:51,214 - INFO - 18.210.201.127: 4 paquetes
+2024-10-16 00:27:51,214 - INFO - 18.204.148.176: 2 paquetes
+2024-10-16 00:27:51,214 - INFO - Top 5 direcciones IP de destino:
+2024-10-16 00:27:51,214 - INFO - 192.168.1.92: 10 paquetes
+2024-10-16 00:27:51,214 - INFO - 18.210.201.127: 4 paquetes
+2024-10-16 00:27:51,221 - INFO - 54.175.57.129: 3 paquetes
+2024-10-16 00:27:51,221 - INFO - 18.204.148.176: 3 paquetes
