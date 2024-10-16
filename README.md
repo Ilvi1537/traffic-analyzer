@@ -88,6 +88,13 @@ docker build -t traffic-analyzer .
 Asegúrate de que el servicio esté funcionando. Puedes iniciarlo en una terminal:
 mongod
 Además, es necesario configurar un clúster para almacenar los datos de manera eficiente. Asegúrate de seguir los pasos adecuados para la configuración del clúster en función de tu entorno y requisitos específicos.
+Una vez que tu clúster esté configurado, actualiza los parámetros en el archivo Project.py para reflejar los
+nombres correspondientes de tu base de datos. Debes modificar las siguientes líneas:
+db = client['TestS3']
+packets_collection = db['packets']
+Asimismo, en el archivo config.json, asegúrate de incluir tu nombre de usuario y contraseña en la cadena
+de conexión. El formato debe ser el siguiente:
+"mongodb_connection_string": "mongodb+srv://<user>:<password>@cluster0.np6aigt.mongodb.net/"
 
 ## Ejecución de la Aplicación
 Para ejecutar el analizador de tráfico, usa el siguiente comando. Asegúrate de que tu contenedor tenga los permisos necesarios para capturar paquetes y acceder a la red:
